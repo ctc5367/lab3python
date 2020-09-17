@@ -19,10 +19,12 @@ def print_n(s, n):
 def run():
   num = input("Enter an int: ")
   num = int(num)
-  print(f"sum is {sum_n(num)}")
+  print(f"sum is {sum_n(num)}.")
 
   s = input("Enter an string: ")
   print_n(s, num)
+
+  print(f"Given input is:\n{num}\n{s}")
 
 if __name__ ==  "__main__":
   run()
