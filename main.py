@@ -17,11 +17,11 @@ def print_n(s, n):
     print_n(s, n-1)
 
 def run():
-  num = input("Enter an int:")
+  num = input("Enter an int: ")
   num = int(num)
   print(f"sum is {sum_n(num)}")
 
-  s = input("Enter an string:")
+  s = input("Enter an string: ")
   print_n(s, num)
 
 if __name__ ==  "__main__":
